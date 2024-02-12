@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+h1{
+    color:red;
+    text-align:center
+}
+label{
+    color: #007bff;
+    font-size: 21px;
+}
+#name{
+    height:30px;
+    width:300px;
+    margin-left:20px
+}
+#pros{
+    margin-left:20px
+}
+#cos{
+    margin-left:20px
+}
+#submit{
+    background-color: red;
+    color:white;
+    height:35px;
+    margin-left:40px
+}
