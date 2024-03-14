@@ -1,6 +1,4 @@
-body{
-    background-color: black;
-}
+
 h1{
     color:red;
     text-align:center
@@ -10,7 +8,7 @@ label{
     font-size: 21px;
 }
 #name{
-    height:30px;
+    height:40px;
     width:300px;
     margin-left:20px
 }
@@ -24,5 +22,51 @@ label{
     background-color: red;
     color:white;
     height:35px;
-    margin-left:40px
+    margin-left:0px
 }
+
+.bi-star-fill{
+    color:white;
+    font-size:20px;
+}
+
+#search-bar{
+    margin-left:900px;
+    margin-bottom:300px
+}
+
+#search{
+    height:40px;
+    width:300px
+}
+
+.rating{
+    display:flex;
+    grid-gap:.5rem;
+    font-size:1.6rem;
+    color:white;
+    margin-bottom:2rem; 
+}
+
+.rating .star{
+    cursor:pointer;
+}
+
+.rating .star:hover{    
+    transform:scale(1.2);
+    
+}
+ 
+h3{
+    margin-top:100px
+}
+
+
+#list{
+    margin-right:100px
+    
+}
+
+/* form{
+    margin-left:10px
+} */
